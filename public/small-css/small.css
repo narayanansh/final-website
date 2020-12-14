@@ -1,0 +1,135 @@
+body{
+    font-family: 'Montserrat';
+}
+
+
+
+#arjun-vajpai{
+   height:500px ;
+   width:350px ;
+   position: relative;
+   left:250px ;
+ 
+}
+
+    
+.about-canvas{
+    background-color: #1f6f8b;
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height:1.5 ;
+    font-weight: 200;
+    color: #ffffff;
+   
+}
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2.5rem;
+}
+.small-canvas-content{
+    font-family: 'Montserrat';
+    text-align: left;
+
+}
+h3{
+    color: #ffffff;
+}
+.size-heading{
+    text-align: left;
+}
+#navbarNav{
+    font-family: 'Montserrat';
+font-size: 1.1rem;
+}
+.row{
+    padding: 8%;
+}
+.button-buy{
+    margin-bottom: 40px;
+}
+.arjun-about{
+    text-align: center;
+    font-family: 'Montserrat';
+    color: orange;
+   
+}
+
+
+.img-option{
+    height:400px ;
+    width: 300px;
+}
+.card-deck{
+    padding: 100px 300px;
+    border-radius: 60px
+}
+.card{
+    margin: auto 200px auto 200px;
+    background-color: #fcf8ec;
+}
+h5{
+    font-size: 2.5rem;
+    color: #1f6f8b;
+    text-align: center;
+}
+.img-option{
+    position: relative;
+    left: 140px;
+}
+.small-text{
+    text-align: center;
+}
+.button-explore{
+   position: relative;
+   left: 230px;
+}
+.more-sizes{
+    color: #000000;
+    text-align: center;
+}
+#different-sizes{
+    background-color: #8bcdcd ;
+}
+h2{
+    font-size: 3rem;
+}
+@media (max-width: 1028px) {
+    #arjun-vajpai{
+        position: static;
+        transform: rotate(0);
+        
+    }
+        .title{
+            text-align: left;
+        
+        }
+            .row{
+                text-align:left;
+            }
+    }
+    
+    
+    .pricing-column{
+        padding: 3% 2%;
+    }
+    .Submit{
+        color: #000000;
+    }
+    .different-sizes-heading{
+        text-align: center;
+        color: #000000;
+        padding-top: 50px ;
+    }
+    .line{
+        border: 1px solid black;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .large-sizes-card{
+        width: 600px;
+    }
+    .button-canvassize{
+        text-align: center;
+    }

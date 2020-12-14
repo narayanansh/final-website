@@ -1,0 +1,166 @@
+#title{
+    background-color:#1f6f8b;
+    color: white;
+    
+    
+}
+h1{ 
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height:1.5 ;
+    font-weight: 200;
+    
+}
+
+.container-fluid{
+    padding: 3% 5% 12%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* navbar */
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2.5rem;
+}
+.nav-item {
+padding: auto 18px;
+}
+/* download-button */
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+.title-image{
+    width: 70%;
+    transform: rotate(25deg);
+position: absolute;
+right: 30%;
+}
+#heart{
+  width: 40px;
+  height: 40px;
+}
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: #8f8f8f;
+}
+.icon{
+    color: #8bcdcd;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #1f6f8b;
+}
+
+
+.testimonail-carousel{
+    height: 500px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+    background-color:#8bcdcd ;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+    font-family: 'Montserrat-bold', sans-serif;
+    text-align: center;
+padding: 100px;
+background-color:#ff4c68 ;
+;
+}
+.cta-a{
+    font-size: 4rem;
+    color: white;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+.button-end{
+    margin-right: 30px;
+}
+#footer{
+    text-align: center;
+    padding: 40px;
+    font-size: 1rem;
+    
+}
+.card-body{
+    background-color: #f3f2da;
+}
+.card{
+    border-radius: 5%;
+    border-bottom-left-radius:5% ;
+    border-bottom-right-radius:5% ;
+}
+.testimoniall-image{
+    width: 40%;
+}
+.profile-photo{
+    text-align: center;
+    
+}
+.about-us{
+    background-color:#ff4c68 ;
+    padding:5%;
+    font-family: ubuntu;
+}
+#about-heading{
+    text-align: center;
+}
+.about-us-container{
+    padding-top: 100px;
+}
+.line{
+    border: 1px solid black;
+}
+.intro-us{
+    color:#fff3b2;
+size: 2rem;
+}
+.contact-heading{
+    text-align: center;
+    color: orange;
+    font-size: 4rem;
+}
+.contact-small-text{
+    text-align: center;
+}
+.contact-medium-text{
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

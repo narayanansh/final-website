@@ -1,0 +1,53 @@
+.form{
+    background-color: #1f6f8b;
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height:1.5 ;
+    font-weight: 200;
+    color: #ffffff;
+   
+}
+#brand{
+    font-family: ubuntu;
+    font-size: 2.5rem;
+}
+.small-canvas-content{
+    font-family: 'Montserrat';
+    text-align: left;
+
+}
+h3{
+    color: #ffffff;
+}
+.size-heading{
+    text-align: left;
+}
+#navbarNav{
+    font-family: 'Montserrat';
+font-size: 1.1rem;
+}
+.navbarNav{
+    font-family: 'Montserrat';
+font-size: 1.1rem;
+}
+.form-heading{
+    text-align: center;
+    color: orange;
+    font-size: 4rem;
+}
+.form{
+    padding: 3%;
+    c
+}
+.form-info{
+    padding:15% ;
+}
+.form-tags{
+    position: relative;
+    left: 160px;
+}
+.nav-items{
+   margin-left: auto;
+}
