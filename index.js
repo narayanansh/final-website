@@ -2,7 +2,6 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
-require('dotenv').config();
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended:false}));
 
@@ -29,6 +28,6 @@ app.post("/form", async function(req,res){
         res.redirect("/");
       });
 });
-app.listen(2000 || process.env.PORT,function(){
+app.listen( process.env.PORT,function(){
   console.log("serever started on port 3000")
 });
